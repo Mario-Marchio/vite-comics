@@ -64,7 +64,7 @@ export default {
 </script>
 <template>
   <header>
-    <div class="h-30 bgc-black"></div>
+    <div class="h-40 bgc-black"></div>
     <div class="container header-nav">
       <figure>
         <img class="p-10" src="./assets/img/dc-logo.png" alt="dc-logo">
@@ -161,7 +161,22 @@ export default {
     </div>
   </main>
   <footer>
-
+    <div class="container footer-nav">
+      <a href="#" class="sign-up-footer">SIGN-UP NOW!</a>
+      <div class="r-header-nav">
+        <ul class="d-flex">
+          <li>
+            <a class="follow-us-footer" href="#">FOLLOW US</a>
+            <img class="img-footer" src="./assets/img/footer-facebook.png" alt="">
+            <img class="img-footer" src="./assets/img/footer-twitter.png" alt="">
+            <img class="img-footer" src="./assets/img/footer-youtube.png" alt="">
+            <img class="img-footer" src="./assets/img/footer-pinterest.png" alt="">
+            <img class="img-footer" src="./assets/img/footer-periscope.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="h-40 bgc-black"></div>
   </footer>
 </template>
 <style lang="scss">
@@ -195,8 +210,8 @@ a {
   max-width: 1200px;
 }
 
-.h-30 {
-  height: 30px;
+.h-40 {
+  height: 40px;
 }
 
 .p-10 {
@@ -290,5 +305,31 @@ a {
 .img-main {
   margin-left: 300px;
   margin-top: -61px;
+}
+
+.sign-up-footer {
+  color: white;
+  padding: 8px;
+  border: 1px solid #0282F9;
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #303030;
+}
+
+.follow-us-footer {
+  color: #0282F9;
+  padding: 40px 0;
+}
+
+.img-footer {
+  padding: 0 10px;
 }
 </style>
