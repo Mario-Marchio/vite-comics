@@ -71,36 +71,8 @@ export default {
       </figure>
       <div class="r-header-nav">
         <ul>
-          <li>
-            <a class="color-black px-55 py-5 " href="#">CHARATCTERS</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">COMICS</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">MOVIES</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">TV</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">GAMES</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">COLLECTIBLES</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">VIDEOS</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">FANS</a>
-          </li>
-          <li>
-            <a class="color-black px-55 py-5" href="#">NEWS</a>
-          </li>
-          <li>
-
-            <a class="color-black px-55 py-5" href="#">SHOP</a>
+          <li v-for="navText in navTexts">
+            <a class="color-black px-55 py-5 " href="#">{{ navText.text.toUpperCase() }}</a>
           </li>
         </ul>
       </div>
@@ -112,7 +84,16 @@ export default {
     </div>
   </header>
   <main>
-
+    <div class="bgc-l-blue">
+      <div class="container nav-main">
+        <ul>
+          <li>
+            <img class="nav-main-img" src="./assets/img/buy-comics-digital-comics.png" alt="">
+            <a href="#">DIGITAL COMICS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </main>
   <footer>
 
@@ -132,6 +113,8 @@ img {
 
 li {
   list-style-type: none;
+  align-items: center;
+  display: flex;
 }
 
 ul {
@@ -169,6 +152,10 @@ a {
   background-color: black;
 }
 
+.bgc-l-blue {
+  background-color: #0282F9;
+}
+
 .color-black {
   color: black;
 }
@@ -190,5 +177,16 @@ a {
   align-items: center;
   height: 120px;
   font-size: x-large;
+}
+
+.nav-main {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nav-main-img {
+  height: 50px;
 }
 </style>
