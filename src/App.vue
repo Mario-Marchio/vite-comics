@@ -63,6 +63,48 @@ export default {
 }
 </script>
 <template>
-  <h1>ciao</h1>
+  <header>
+    <div class="h-30 bgc-black"></div>
+    <div class="container header-nav">
+      <figure>
+        <img src="./assets/img/dc-logo.png" alt="dc-logo">
+      </figure>
+    </div>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.bgc-black {
+  background-color: black;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+</style>
