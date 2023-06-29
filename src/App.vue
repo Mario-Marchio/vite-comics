@@ -87,9 +87,25 @@ export default {
     <div class="bgc-l-blue">
       <div class="container nav-main">
         <ul>
-          <li>
+          <li class="nav-main-li">
             <img class="nav-main-img" src="./assets/img/buy-comics-digital-comics.png" alt="">
-            <a href="#">DIGITAL COMICS</a>
+            <a class="nav-main-a" href="#">DIGITAL COMICS</a>
+          </li>
+          <li class="nav-main-li">
+            <img class="nav-main-img" src="./assets/img/buy-comics-merchandise.png" alt="">
+            <a class="nav-main-a" href="#">DC MERCHANDISE</a>
+          </li>
+          <li class="nav-main-li">
+            <img class="nav-main-img" src="./assets/img/buy-comics-subscriptions.png" alt="">
+            <a class="nav-main-a" href="#">SUBSCRIPTION</a>
+          </li>
+          <li class="nav-main-li">
+            <img class="nav-main-img" src="./assets/img/buy-comics-shop-locator.png" alt="">
+            <a class="nav-main-a" href="#">COMIC SHOP LOCATOR</a>
+          </li>
+          <li class="nav-main-li">
+            <img class="nav-main-img" src="./assets/img/buy-dc-power-visa.svg" alt="">
+            <a class="nav-main-a" href="#">DC POWER VISA</a>
           </li>
         </ul>
       </div>
@@ -139,13 +155,11 @@ a {
 }
 
 .px-55 {
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding: 55px 0;
 }
 
 .py-5 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 5px;
 }
 
 .bgc-black {
@@ -188,5 +202,15 @@ a {
 
 .nav-main-img {
   height: 50px;
+}
+
+.nav-main-a {
+  color: white;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+.nav-main-li {
+  padding: 0 30px;
 }
 </style>
