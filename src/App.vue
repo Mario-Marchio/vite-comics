@@ -283,6 +283,7 @@ a {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .main-a {
@@ -303,8 +304,10 @@ a {
 }
 
 .img-main {
-  margin-left: 300px;
-  margin-top: -61px;
+  position: absolute;
+  top: -51px;
+  right: 300px;
+
 }
 
 .sign-up-footer {
@@ -322,6 +325,8 @@ a {
 
 footer {
   background-color: #303030;
+  position: relative;
+  z-index: 1;
 }
 
 .follow-us-footer {
