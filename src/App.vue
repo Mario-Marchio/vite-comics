@@ -105,6 +105,11 @@ export default {
         </ul>
       </div>
     </div>
+    <div class="bgc-black ">
+      <div class="container content">
+        content goes here
+      </div>
+    </div>
   </header>
   <main>
 
@@ -177,5 +182,13 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.content {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  font-size: x-large;
 }
 </style>
