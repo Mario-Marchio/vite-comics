@@ -1,4 +1,6 @@
-<script></script>
+<script>
+
+</script>
 
 <template>
     <main>
@@ -75,6 +77,7 @@
                     </ul>
                 </div>
                 <img class="img-main" src="../assets/img/dc-logo-bg.png" alt="">
+
             </div>
         </div>
     </main>

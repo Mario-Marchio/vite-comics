@@ -67,12 +67,4 @@ a {
 .color-black {
   color: black;
 }
-
-.content {
-  color: white;
-  display: flex;
-  align-items: center;
-  height: 120px;
-  font-size: x-large;
-}
 </style>
